@@ -1,0 +1,38 @@
+.page {
+  max-width: 1200px;
+}
+
+.header {
+  margin-bottom: var(--space-xl);
+}
+
+.heading {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
+}
+
+.subtitle {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.content {
+  margin-top: var(--space-md);
+}
+
+.empty {
+  padding: var(--space-xl);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.emptyHint {
+  margin-top: var(--space-md);
+  font-size: var(--text-sm);
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}

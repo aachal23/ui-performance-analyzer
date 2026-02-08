@@ -1,0 +1,182 @@
+.root {
+  min-height: 100vh;
+  padding: var(--space-xl);
+  background: var(--color-bg);
+}
+
+.hero {
+  text-align: center;
+  padding: var(--space-2xl) 0;
+  margin-bottom: var(--space-xl);
+}
+
+.title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+}
+
+.subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+}
+
+.sectionTitle {
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+}
+
+.images {
+  margin-bottom: var(--space-xl);
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-md);
+}
+
+.imageWrap {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-surface-elevated);
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
+
+.loadedHint {
+  font-size: var(--text-sm);
+  color: var(--color-success);
+  margin-top: var(--space-md);
+}
+
+.listSection {
+  margin-bottom: var(--space-xl);
+}
+
+.listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+.toggleBtn {
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+
+.toggleBtn:hover {
+  background: var(--color-surface-elevated);
+}
+
+.list {
+  list-style: none;
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+  cursor: default;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.listIndex {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  min-width: 2rem;
+}
+
+.listText {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+}
+
+.animSection {
+  margin-bottom: var(--space-xl);
+}
+
+.animGrid {
+  display: flex;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.animBox {
+  width: 80px;
+  height: 80px;
+  background: var(--color-primary);
+  border-radius: var(--radius-md);
+  opacity: 0.8;
+}
+
+/* Stress controls: ticker */
+.stressTicker {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-md);
+  font-size: var(--text-sm);
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-warning);
+  border-radius: var(--radius-sm);
+}
+
+.stressTickerLabel {
+  color: var(--color-text-muted);
+}
+
+.stressTickerValue {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--color-warning);
+}
+
+/* Stress: delayed API */
+.delayedSection {
+  margin-bottom: var(--space-xl);
+}
+
+.delayedBox {
+  padding: var(--space-md);
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.delayedLoading {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.delayedData {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-success);
+}

@@ -1,0 +1,12 @@
+.page {
+  max-width: 1200px;
+}
+
+.heading {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-md);
+}
+
+.placeholder {
+  color: var(--color-text-muted);
+}

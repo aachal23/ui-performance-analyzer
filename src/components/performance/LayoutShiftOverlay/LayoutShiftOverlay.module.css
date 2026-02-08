@@ -1,0 +1,31 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+.overlayScoped {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.sourceWrap {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.boxPrevious {
+  border: 2px dashed var(--color-warning);
+  background: rgba(210, 153, 34, 0.08);
+  box-sizing: border-box;
+}
+
+.boxCurrent {
+  border: 2px solid var(--color-danger);
+  background: rgba(248, 81, 73, 0.12);
+  box-sizing: border-box;
+}
